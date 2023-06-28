@@ -5,13 +5,9 @@
     "yarn": "^1.22.19"
   },
   "scripts": {
-<<<<<<< HEAD
     "dev": "NODE_ENV=development node server.js",
     "start": "NODE_ENV=production node server.js",
     "watch": "json-server db.json --port=8000"
-=======
-    "start": "json-server --watch data.json"
->>>>>>> cc256442569a9cbdbfc62f23325d72430426bfba
   },
   "repository": {
     "type": "git",
