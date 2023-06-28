@@ -1,9 +1,13 @@
 {
   "dependencies": {
-    "json-server": "^0.17.3"
+    "clone": "^2.1.2",
+    "json-server": "^0.17.3",
+    "yarn": "^1.22.19"
   },
   "scripts": {
-    "start": "json-server --watch data.json -p 3001"
+    "dev": "NODE_ENV=development node server.js",
+    "start": "NODE_ENV=production node server.js",
+    "watch": "json-server db.json --port=8000"
   },
   "repository": {
     "type": "git",
