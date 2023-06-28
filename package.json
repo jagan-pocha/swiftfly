@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "json-server": "^0.17.3"
+  },
+  "scripts": {
+    "start": "json-server --watch data.json -p 3001"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jagan-pocha/swiftfly.git"
+  }
+}
